@@ -20,3 +20,11 @@
 #projects p {
   font-size: 1.4rem;
 }
+
+@media screen and (max-width: 768px) {
+  #projects {
+    padding: 6rem 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+}

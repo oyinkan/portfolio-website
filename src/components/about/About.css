@@ -11,11 +11,18 @@
 }
 .about-me p {
   font-size: 2rem;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
   .about-me {
     height: 100%;
     padding: 3rem 2rem;
+  }
+  .about-me h3 {
+    font-size: 3.5rem;
+  }
+  .about-me p {
+    font-size: 1.6rem;
   }
 }

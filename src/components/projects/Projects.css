@@ -1,5 +1,6 @@
 #projects {
-  background-color: #a48270;
+  background: url("../../assets/images/background.jpg");
+  background-size: cover;
   padding: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

@@ -1,0 +1,14 @@
+.about-me {
+  background: #e6d5b8;
+  padding: 3rem 2rem;
+  color: #1b1a17;
+  height: 100vh;
+}
+.about-me h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.about-me p {
+  font-size: 2rem;
+}

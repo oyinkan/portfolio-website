@@ -1,0 +1,22 @@
+#projects {
+  background-color: #a48270;
+  padding: 6rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+#projects article {
+  height: 100%;
+  background: #fff;
+  color: #57443a;
+  border-radius: 4px;
+}
+#projects article > div {
+  padding: 1rem;
+}
+#projects h4 {
+  font-size: 2.2rem;
+}
+#projects p {
+  font-size: 1.4rem;
+}

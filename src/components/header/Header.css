@@ -1,0 +1,49 @@
+header {
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f0a500;
+  border-bottom: 1px solid #f0a500;
+  padding: 5px 0;
+}
+header img {
+  display: flex;
+  height: 40px;
+}
+header a {
+  color: #e6d5b8;
+  font-size: 1.6rem;
+}
+header a:hover {
+    font-weight: bold;
+}
+.name-section {
+  padding: 2rem 0;
+  color: #e6d5b8;
+}
+.name-section > p:first-child {
+  color: #f0a500;
+  font-size: 6.5rem;
+}
+.name-section h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  margin-top: -3rem;
+  margin-bottom: -1rem;
+}
+.profession {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .name-section h1 {
+    font-size: 4.5rem;
+  }
+}

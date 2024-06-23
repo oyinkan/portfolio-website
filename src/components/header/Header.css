@@ -1,13 +1,17 @@
 header {
-  padding: 2rem;
+  padding: 4rem 6rem;
+  padding-bottom: 2rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 header > div:first-child {
-  display: flex;
   justify-content: space-between;
+}
+header > div:first-child,
+.social-links {
+  display: flex;
   align-items: center;
   border-top: 1px solid #f0a500;
   border-bottom: 1px solid #f0a500;
@@ -15,14 +19,14 @@ header > div:first-child {
 }
 header img {
   display: flex;
-  height: 40px;
+  height: 20px;
 }
 header a {
   color: #e6d5b8;
   font-size: 1.6rem;
 }
 header a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 .name-section {
   padding: 2rem 0;
@@ -31,19 +35,27 @@ header a:hover {
 .name-section > p:first-child {
   color: #f0a500;
   font-size: 6.5rem;
+  font-family: "HelloJanuary";
+  letter-spacing: 1rem;
 }
 .name-section h1 {
-  font-size: 8rem;
+  font-size: 12rem;
   text-transform: uppercase;
-  margin-top: -3rem;
-  margin-bottom: -1rem;
+  margin: -2rem 0;
 }
 .profession {
   font-size: 1.6rem;
 }
+.social-links {
+  margin-bottom: 4rem;
+  gap: 1rem;
+}
+.social-links a {
+  display: flex;
+}
 
 @media screen and (max-width: 768px) {
   .name-section h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }

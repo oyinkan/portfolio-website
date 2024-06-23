@@ -55,8 +55,8 @@ const projectLists = [
 function Projects() {
   return (
     <section id="projects">
-      {projectLists.map((proj) => (
-        <a href={proj.link} target="_blank" rel="noreferrer">
+      {projectLists.map((proj, key) => (
+        <a href={proj.link} target="_blank" rel="noreferrer" key={key}>
           <article>
             <div>
               <h4>{proj.title}</h4>

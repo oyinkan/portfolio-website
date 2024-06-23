@@ -1,6 +1,6 @@
 .about-me {
   background: #e6d5b8;
-  padding: 3rem 2rem;
+  padding: 3rem 6rem;
   color: #1b1a17;
   height: 100vh;
 }
@@ -11,4 +11,10 @@
 }
 .about-me p {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    height: 100%;
+  }
 }

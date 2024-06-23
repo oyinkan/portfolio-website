@@ -1,6 +1,6 @@
 #projects {
   background-color: #a48270;
-  padding: 6rem 2rem;
+  padding: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;

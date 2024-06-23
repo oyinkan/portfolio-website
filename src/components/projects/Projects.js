@@ -56,7 +56,7 @@ function Projects() {
   return (
     <section id="projects">
       {projectLists.map((proj) => (
-        <a href={proj.link} target="_blank">
+        <a href={proj.link} target="_blank" rel="noreferrer">
           <article>
             <div>
               <h4>{proj.title}</h4>

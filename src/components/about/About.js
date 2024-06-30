@@ -3,6 +3,10 @@ import "./About.css";
 function About() {
   return (
     <section className="about-me">
+      <div className="flex">
+        <img src="/logo.svg" className="logo" alt="Sakirat Kehinde Usman" />
+        <hr className="line" />
+      </div>
       <h3>About Me</h3>
       <p>
         I am an engineer with a solid foundation in both frontend engineering
@@ -22,6 +26,11 @@ function About() {
         leveraging my technical skills and continuous learning mindset to solve
         complex problems and create impactful solutions in a collaborative
         environment.
+      </p>
+      <h5>SKILLS</h5>
+      <p>
+        HTML . CSS . JavaScript . React . Redux . NodeJS . MongoDB . <br />
+        Python . SQL . Excel . R . Numpy . Panda . 
       </p>
     </section>
   );

@@ -2,7 +2,19 @@
   background: #e6d5b8;
   padding: 3rem 6rem;
   color: #1b1a17;
-  height: 100vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 35px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #f0a500;
+  margin-left: 2.5rem;
 }
 .about-me h3 {
   font-size: 5rem;
@@ -12,6 +24,10 @@
 .about-me p {
   font-size: 2rem;
   text-align: justify;
+}
+.about-me h5 {
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 768px) {

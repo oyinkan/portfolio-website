@@ -4,7 +4,7 @@
   padding: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 #projects article {
   height: 100%;
@@ -15,17 +15,39 @@
 #projects article > div {
   padding: 1rem;
 }
-#projects h4 {
-  font-size: 2.2rem;
+#projects h4,
+.card-body > div > a {
+  font-size: 2rem;
 }
 #projects p {
   font-size: 1.4rem;
+}
+.card-header {
+  height: 10rem;
+}
+.card-body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body > div > a {
+  color: #57443a;
 }
 
 @media screen and (max-width: 768px) {
   #projects {
     padding: 6rem 2rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
+    justify-content: center;
+    align-items: center;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+

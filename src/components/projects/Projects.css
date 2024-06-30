@@ -2,6 +2,12 @@
   background: url("../../assets/images/background.jpg");
   background-size: cover;
   padding: 6rem;
+}
+#projects h3 {
+  color: #fff;
+  margin-bottom: 4rem;
+}
+#projects > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
@@ -37,15 +43,15 @@
 @media screen and (max-width: 768px) {
   #projects {
     padding: 6rem 2rem;
+  }
+  #projects > div {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
-    justify-content: center;
-    align-items: center;
   }
 }
 
 @media screen and (max-width: 450px) {
-  #projects {
+  #projects > div {
     grid-template-columns: 1fr;
   }
 }

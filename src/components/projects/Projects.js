@@ -53,46 +53,49 @@ const projectLists = [
     title: "Octa",
     link: "https://octa.ng",
     description: "A fast-growing savings and investment community.",
-    image: octa
+    image: octa,
   },
   {
     title: "Medfit",
     link: "https://medfit.com.ng/",
     description: "Medfit",
-    image: medfit
+    image: medfit,
   },
   {
     title: "Incollab Studio",
     link: "https://incollabstudio.com/",
     description:
       "A website used to easily track progress and approve project stages.",
-    image: incollab
+    image: incollab,
   },
 ];
 
 function Projects() {
   return (
     <section id="projects">
-      {projectLists.map((proj, key) => (
-        <article key={key}>
-          <div
-            className="card-header"
-            style={{
-              background: `url(${proj.image})`,
-              backgroundSize: "cover",
-            }}
-          ></div>
-          <div className="card-body">
-            <div>
-              <h4>{proj.title}</h4>
-              <a href={proj.link} target="_blank" rel="noreferrer">
-                <TbWorld />
-              </a>
+      <h3>Featured Works</h3>
+      <div>
+        {projectLists.map((proj, key) => (
+          <article key={key}>
+            <div
+              className="card-header"
+              style={{
+                background: `url(${proj.image})`,
+                backgroundSize: "cover",
+              }}
+            ></div>
+            <div className="card-body">
+              <div>
+                <h4>{proj.title}</h4>
+                <a href={proj.link} target="_blank" rel="noreferrer">
+                  <TbWorld />
+                </a>
+              </div>
+              <p>{proj.description}</p>
             </div>
-            <p>{proj.description}</p>
-          </div>
-        </article>
-      ))}
+          </article>
+        ))}
+      </div>
     </section>
   );
 }

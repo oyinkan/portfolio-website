@@ -24,12 +24,6 @@ const projectLists = [
     image: settl,
   },
   {
-    title: "Naira",
-    link: "https://naira.com",
-    description: "Naira Money",
-    image: "",
-  },
-  {
     title: "Adroit",
     link: "https://adroitmetering.com",
     description: "Metering is the heart of the utility business",

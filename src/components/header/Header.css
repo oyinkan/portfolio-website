@@ -22,7 +22,8 @@ header img {
   display: flex;
   height: 20px;
 }
-header a {
+header a,
+.social-links svg {
   color: #e6d5b8;
   font-size: 1.6rem;
 }
@@ -49,6 +50,10 @@ header a:hover {
 }
 .social-links {
   margin-bottom: 4rem;
+  justify-content: space-between;
+}
+.social-links > div {
+  display: flex;
   gap: 1.5rem;
 }
 .social-links a {
